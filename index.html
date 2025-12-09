@@ -5,7 +5,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olívia Santos - Portfólio & Currículo</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> 
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3e5f5; 
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px 50px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); 
+            border-radius: 15px; 
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid #e1bee7; 
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            color: #673ab7; 
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: 700;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #9c27b0; 
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links a {
+            margin: 0 12px;
+            color: #9c27b0;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .links a:hover {
+            color: #673ab7; 
+            transform: translateY(-2px); 
+        }
+        .links a:nth-child(2) {
+             margin-right: 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-top: 10px;
+        }
+        section h2 {
+            border-left: none;
+            background-color: #e1bee7; 
+            padding: 5px 15px;
+            color: #673ab7;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .item {
+            margin-bottom: 25px;
+            padding: 18px;
+            border-radius: 8px;
+            background-color: #ffffff; 
+            border: 1px solid #e1bee7; 
+            box-shadow: 0 2px 5px rgba(103, 58, 183, 0.05); 
+            transition: box-shadow 0.3s;
+        }
+        .item:hover {
+            box-shadow: 0 4px 10px rgba(103, 58, 183, 0.1); 
+        }
+        .item h3 {
+            margin-top: 0;
+            color: #4a148c; 
+            font-size: 1.5em;
+            border-bottom: 1px dashed #e1bee7;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .item p {
+            margin: 8px 0;
+        }
+        .item a {
+            color: #9c27b0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .item a:hover {
+            text-decoration: underline;
+            color: #673ab7;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #e1bee7;
+            margin-top: 40px;
+        }
+        footer p {
+            font-size: 0.9em;
+            color: #9c27b0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                margin: 20px auto;
+                padding: 20px 25px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            section h2 {
+                font-size: 1.5em;
+                display: block;
+                text-align: center;
+            }
+            .links a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -13,7 +145,7 @@
             <h1>Olívia dos Santos Dias</h1>
             <p>Estudante de Informática</p>
             <div class="links">
-                <a href="olivia.ifrj@gmail.com">📧 E-mail</a> | |
+                <a href="mailto:olivia.ifrj@gmail.com">📧 E-mail</a> 
                 <a href="https://github.com/oliviaifrj" target="_blank">💻 GitHub</a> 
             </div>
         </header>
@@ -34,18 +166,18 @@
             </div>
             
             <div class="item">
-                <h3>Check Point 2:  Sistema de Personagem e Aventur</h3>
+                <h3>Check Point 2: Sistema de Personagem e Aventura</h3>
                 <p>Descrição breve: O jogador gerencia seu herói, inventário e missões em tempo real.</p>
                 <p><a href="https://github.com/oliviaifrj/ListaApps/tree/719960bbc686c7e056e18ea911d7d10165e8f9f6/Checkpoint2" target="_blank">Ver projeto</a></p>
             </div>
 
-             <div class="item">
+            <div class="item">
                 <h3>Check Point 3: Spotify</h3>
                 <p>Descrição breve: Clone funcional do Spotify.</p>
                 <p><a href="./checkpoints/cp3/" target="_blank">Ver Código Fonte</a></p>
             </div>
 
-            </section>
+        </section>
 
         <section id="atividades">
             <h2>📚 Atividades em sala</h2>
@@ -53,7 +185,7 @@
             
             <div class="item">
                 <h3>Lista de Exercícios de Aplicativos</h3>
-                <p></p>
+                <p>Exercícios diversos focados em aplicações práticas.</p>
                 <p><a href="https://github.com/oliviaifrj/ListaApps.git" target="_blank">Acessar Exercícios</a></p>
             </div>
             
